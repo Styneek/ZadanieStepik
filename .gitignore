@@ -1,0 +1,35 @@
+# Pliki kompilacji
+*.o          # Pliki obiektowe
+*.out        # Pliki wykonywalne
+*.exe        # Pliki wykonywalne w systemach Windows
+*.d          # Pliki zależności
+
+# Katalogi kompilacji
+/build       # Katalog z plikami budowy
+/bin         # Katalog z plikami binarnymi
+/obj         # Katalog z plikami obiektowymi
+
+# Pliki tymczasowe
+*.tmp        # Pliki tymczasowe
+*.temp       # Pliki tymczasowe
+*.log        # Pliki logów
+
+# Katalogi tymczasowe
+/tmp         # Katalog tymczasowy
+/temp        # Katalog tymczasowy
+
+# Pliki systemowe
+.DS_Store    # Pliki systemowe macOS
+Thumbs.db    # Pliki systemowe Windows
+*.swp        # Pliki swap dla edytorów tekstu
+
+# Pliki IDE i edytorów
+.vscode/     # Katalog konfiguracyjny Visual Studio Code
+.idea/       # Katalog konfiguracyjny IntelliJ IDEA
+*.sublime-workspace
+*.sublime-project
+*.iml        # Pliki projektów IntelliJ
+
+# Inne
+*.class      # Pliki klas (jeśli używasz Javy)
+*.jar        # Pliki archiwum JAR
